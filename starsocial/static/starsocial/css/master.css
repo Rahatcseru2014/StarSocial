@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  color:white;
+}
+
+.jumbotron{
+  background: rgba(0, 0, 0, 0.0001);
+  text-align: center;
+}
+
+.center{
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#welcome-text, #login-text, #logout-text{
+  line-height: .95;
+  color: #66fcf1;
+  font-weight: 700;
+  font-size: 100px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
